@@ -12,6 +12,7 @@
    * [Static Trial Methodology and Examples](#static-trial-methodology-and-examples)
    * [Field Trial with Partner Organisation](#field-trial-with-partner-organisation)
    * [Anechoic Chamber Readings](#anechoic-chamber-readings)
+   * [Acknowledgements](#acknowledgements)
 <!--te-->
 
 ## Introduction
@@ -32,7 +33,7 @@ MOH has come up with a guideline to determine if someone has been a close contac
 
 To resolve this issue of too many false positives while maintaining a higher degree of true positives, we aim to apply an algorithm during post-processing to increase our precision of identifying close contacts befitting the criteria. Thus, the following trials in this document are designed to collect distinguishable data matching the close contact criteria, as well as data outside of it for tuning the algorithm.
 
-As mentioned above, Device/Phone model is also essential for distance approximation, the details of which can be found in the “Phone manufacturer and model” section. To be able to validate all the data collected by the devices, a solid “Ground Truth” must be established. This is also further discussed in the document.
+As mentioned above, Device/Phone model is also essential for distance approximation, the details of which can be found in the [Phone manufacturer and model differences](#phone-manufacturer-and-model-differences) section. To be able to validate all the data collected by the devices, a solid [Ground Truth](#the-ground-truth) must be established.
 
 
 ## Phone manufacturer and model differences
@@ -87,7 +88,7 @@ A less movement-intensive trial format was used in the office environment in the
 
 The data gathered during these trials revealed that we needed to improve consistency of readings across multiple devices (note the highlighted gaps). 
 
-It was also here that we realised the importance of tuning our field data with 2m distance data collected from a more controlled environment due to the high standard deviations for each device.
+It was also here that we realised the importance of tuning our field data with 2m distance data collected from [a more controlled environment](#anechoic-chamber-readings) due to the high standard deviations for each device.
 
 <p align="center">
 	<img src="/src/images/raw_rssi_chart.png">
