@@ -185,8 +185,11 @@ A different static set-up was also used to determine if pair-wise RSSI values co
 This trial was conducted later in the development cycle as we worked with another organisation within Singapore to test our implementation on a larger scale. The main objectives were as follows:
 
 1.To allow participants to go about their daily routines without too many deliberate movements on their part.
+
 2.To observe app performance and stability in a different setting; main differences from our office setup are a larger area spanning more than 1 floor and more participants.
+
 3.To compare the effectiveness of our interpreted data with real contact-tracing procedures.
+
 4.To validate how our implementation was used by actual users and identify potential areas for improvement.
 
 ### Outline of the entire Trial
