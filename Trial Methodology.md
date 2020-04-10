@@ -5,10 +5,10 @@ The methodologies described in this document were designed for the TraceTogether
 TraceTogether is a mobile application developed on top of the BlueTrace protocol to support existing nationwide efforts to combat COVID-19, by enabling community-driven contact tracing using Bluetooth technology. Based on the specifications of the encounter message in the TraceTogether implementation, the two noteworthy values that can be used for distance estimation are the Received Signal Strength Indicator (RSSI) and Device Model.
 
 Distance estimation using BLE is possible using the RSSI measured by a Bluetooth Central reading from a Peripheral. However, the RSSI value exhibits significant variation and is subject to factors such as:
-- Multipath fading
-- Phone placement on a person, e.g. in a hand, in a pocket, proximal or distal to a receiver
-- Environmental factors such as surface textures, geometry, and physical layout
-- Device-specific characteristics such as chipset, antenna layout, and OS configurations
+* Multipath fading
+* Phone placement on a person, e.g. in a hand, in a pocket, proximal or distal to a receiver
+* Environmental factors such as surface textures, geometry, and physical layout
+* Device-specific characteristics such as chipset, antenna layout, and OS configurations
 
 All these factors introduce random noise in estimates of distance.
 
@@ -57,9 +57,9 @@ The main drawback to our current methods of getting the Ground Truth is that it 
 
 A less movement-intensive trial format was used in the office environment in the early stages of development to validate our implementation. The main objectives here were:
 
-1.To be able to detect devices in close contact with the “infected” user in a closed confined space where participants do not move much for a duration.
+1. To be able to detect devices in close contact with the “infected” user in a closed confined space where participants do not move much for a duration.
 
-2.To be able to obtain consistent readings of those seated in close proximity.
+2. To be able to obtain consistent readings of those seated in close proximity.
 
 <p align="center">
 	<img src="/src/images/meeting_room_layout.png">
@@ -86,9 +86,9 @@ Using our office space to simulate regular common daily interactions, we rolepla
 
 The main objectives here are:
 
-1.To be able to detect devices in close contact with an “infected” user who moves to predetermined locations around the environment.
+1. To be able to detect devices in close contact with an “infected” user who moves to predetermined locations around the environment.
 
-2.To be able to approximate the duration of how long a device remains in proximity to an “infected” user.
+2. To be able to approximate the duration of how long a device remains in proximity to an “infected” user.
 
 With these in mind, the team drafted different test scenarios for each participant to roleplay. These scenarios involved movement to various designated areas within the office for a period of time.
 
@@ -116,16 +116,16 @@ A static trial is essentially a trial with many stationary devices designed to �
 
 The main objectives in this case are the following:
 
-1.To test connectivity between various devices over a length of time. 
+1. To test connectivity between various devices over a length of time. 
 In a real world scenario where there can be many devices near each other (e.g a crowded train), any device should be able to pick up other surrounding devices within a reasonable time.
 
-2.To test for consistency and stability of the protocol implementation over a length of time.
+2. To test for consistency and stability of the protocol implementation over a length of time.
 Assuming that devices do not move around, the pair-wise RSSI readings should be of a consistent range without much fluctuation. The devices should also be attempting to establish connections throughout the entire duration.
 
-3.To test battery drain over a length of time.
+3. To test battery drain over a length of time.
 Battery drain is a concern for our users, we want to ensure that the battery consumption across manufacturers and models is reasonable with our implementation.
 
-4.To note down patterns of gaps within the data caused by manufacturer battery saving features or Android Doze mode.
+4. To note down patterns of gaps within the data caused by manufacturer battery saving features or Android Doze mode.
 As covered in an earlier section, the scanning and advertising frequency of each device can be affected by manufacturer battery saving features built into the OS. This type of trial is useful to test tweaks to Bluetooth power settings in our implementation, as well as the workarounds for users.
 
 For all cases above, all devices should be placed within range of each other and allowed to run for a longer period of time. In our own trials, we installed debug builds of the app on all our available test devices and set them within the 2 meter range requirement for close contact to run overnight. We chose test devices that were part of a top 50 list of popular models in Singapore, which includes devices from most major manufacturers as well as older models up to 5 years old.
@@ -184,13 +184,13 @@ A different static set-up was also used to determine if pair-wise RSSI values co
 
 This trial was conducted later in the development cycle as we worked with another organisation within Singapore to test our implementation on a larger scale. The main objectives were as follows:
 
-1.To allow participants to go about their daily routines without too many deliberate movements on their part.
+1. To allow participants to go about their daily routines without too many deliberate movements on their part.
 
-2.To observe app performance and stability in a different setting; main differences from our office setup are a larger area spanning more than 1 floor and more participants.
+2. To observe app performance and stability in a different setting; main differences from our office setup are a larger area spanning more than 1 floor and more participants.
 
-3.To compare the effectiveness of our interpreted data with real contact-tracing procedures.
+3. To compare the effectiveness of our interpreted data with real contact-tracing procedures.
 
-4.To validate how our implementation was used by actual users and identify potential areas for improvement.
+4. To validate how our implementation was used by actual users and identify potential areas for improvement.
 
 ### Outline of the entire Trial
 #### 1 - Identify areas of interest
@@ -336,13 +336,16 @@ After the trial, we identified a few random participants as our “infected” c
 3.Personnel that are not recorded in any room at any point of time will be considered to be out of sight.
 
 #### Challenges faced
-1.Establishing the Ground Truth
+1. Establishing the Ground Truth
+
 As filling in the log sheets is best effort work, we realise that some participants may forget to clock their timings in or out of a room. To mitigate this, we made a prominent sign to remind participants to do so, and periodically sent out reminders via a group chat.
 
-2.Gathering device data
+2. Gathering device data
+
 During the course of the trial, we found that some participants had difficulty with utilising the app properly. This is referring to our implementation on iOS where we are limited to collecting data only when the app is in the foreground. 
 
-3.Gathering activity maps for contact-tracing
+3. Gathering activity maps for contact-tracing
+
 During our interviews, we found that participants interacted with people who were not part of the trial. Effort was required to clean up our contact-tracing data to only include participants, as well as remove other qualitative data irrelevant to the trial.
 
 With the Ground Truth (or the closest we can get) established, our post-trial analysis involves comparing the contacts established in the Activity Map against the contacts from the interpreted data from the participant’s device
@@ -484,3 +487,10 @@ On the spectrum analyser, we used the peak-hold function and recorded the values
 <br>&nbsp;
 <br>We will be including the dataset used in our tuning as part of the OpenTrace repository, all parties are welcome to contribute. We would also like to put a call out there to major phone manufacturers; any factory calibration data for your BLE implementations will be helpful too!
 
+## Acknowledgements
+We are indebted to the:-
+* Institute for Infocomm Research (I2), a research entity of the Agency for Science, Technology and Research (A\*STAR)
+* Rohde & Schwarz Singapore
+* Infocomm Media Development Authority (IMDA)
+* Nanyang Polytechnic
+for the loan and use of facilities and equipment that was used in these tests and trials.
