@@ -40,7 +40,7 @@ As mentioned above, Device/Phone model is also essential for distance approximat
 
 Earlier on in our experiments it was found that the physical characteristics of every device can affect the quantity and quality of data collected. It can be expected that the bluetooth hardware in each chipset, the antenna layout, and even the phone’s OS can affect the performance of the BlueTrace implementation.
 
-Hardware characteristics can be controlled by collecting readings in an EMC chamber (anechoic or semi-anechoic). These readings can then be applied in post-processing to calibrate the RSSI values from the trial. See “Anechoic Chamber Readings” section for more information.
+Hardware characteristics can be controlled by collecting readings in an EMC chamber (anechoic or semi-anechoic). These readings can then be applied in post-processing to calibrate the RSSI values from the trial. See [Anechoic Chamber Readings(#anechoic-chamber-readings) section for more information.
 
 One critical factor to take into account is the manufacturer’s own battery saving features built into their OS. This is noted in particular for Android vendors, and each flavor of Android can affect the amount of data that can be collected over a period of time. Some Android OEMs aggressively suppress the performance of the app, and at times may even kill the service or throttle the bluetooth hardware. A good reference guide can be found at: https://dontkillmyapp.com/. By following the steps to whitelist the app for each device, we can lessen the impact that manufacturer battery saving features affects our readings.
 
