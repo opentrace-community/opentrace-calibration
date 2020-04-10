@@ -1,6 +1,21 @@
-# Trial Methodology
+# Trial Methodologies
 
-The methodologies described in this document were designed for the TraceTogether application, but we hope the information can be of use to test and trial your own implementation of OpenTrace.
+> The methodologies described in this document were designed for the TraceTogether application, but we hope the information can be of use to test and trial your own implementation of OpenTrace.
+
+## Table of contents
+=================
+<!--ts-->
+   * [Introduction](#introduction)
+   * [Phone manufacturer and model differences](##phone-manufacturer-and-model-differences)
+   * [The Ground Truth](#the-ground-truth)
+   * [Small-scale Trial Methodology](#small-scale-trial-methodology)
+   * [Indoor Office Trial Methodology](#indoor-office-trial-methodology)
+   * [Static Trial Methodology and Examples](#static-trial-methodology-and-examples)
+   * [Field Trial with Partner Organisation](#field-trial-with-partner-organisation)
+   * [Anechoic Chamber Readings](#anechoic-chamber-readings)
+<!--te-->
+
+## Introduction
 
 TraceTogether is a mobile application developed on top of the BlueTrace protocol to support existing nationwide efforts to combat COVID-19, by enabling community-driven contact tracing using Bluetooth technology. Based on the specifications of the encounter message in the TraceTogether implementation, the two noteworthy values that can be used for distance estimation are the Received Signal Strength Indicator (RSSI) and Device Model.
 
@@ -80,7 +95,7 @@ It was also here that we realised the importance of tuning our field data with 2
 	<br><i>Pictured above: Raw RSSI readings of devices at 2m taken in an anechoic chamber.</i>
 </p>
 
-## Indoor Office Trial Methodology and Examples
+## Indoor Office Trial Methodology
 
 Using our office space to simulate regular common daily interactions, we roleplay scenarios where an app user is diagnosed with the virus and the team traces the potential list of affected app users from the data collected.
 
@@ -494,5 +509,6 @@ We are indebted to the:-
 * Rohde & Schwarz Singapore
 * Infocomm Media Development Authority (IMDA)
 * Nanyang Polytechnic
+* Samsung Singapore
 
 for the loan and use of facilities and equipment that was used in these tests and trials.
