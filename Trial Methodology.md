@@ -329,11 +329,11 @@ After the trial, we identified a few random participants as our “infected” c
 <i>Pictured above: Established Ground Truth data from combining registration form and room logs.</i>
 
 #### Assumptions during evaluation
-1.All personnel in the same room are deemed to be in close contact.
+1. All personnel in the same room are deemed to be in close contact.
 
-2.Personnel in different rooms are deemed to be not in close contact.
+2. Personnel in different rooms are deemed to be not in close contact.
 
-3.Personnel that are not recorded in any room at any point of time will be considered to be out of sight.
+3. Personnel that are not recorded in any room at any point of time will be considered to be out of sight.
 
 #### Challenges faced
 1. Establishing the Ground Truth
@@ -493,4 +493,5 @@ We are indebted to the:-
 * Rohde & Schwarz Singapore
 * Infocomm Media Development Authority (IMDA)
 * Nanyang Polytechnic
+
 for the loan and use of facilities and equipment that was used in these tests and trials.
