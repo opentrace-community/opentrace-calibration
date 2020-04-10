@@ -1,21 +1,21 @@
 ﻿Manufacturer,Device Name,Model,Distance (m),Orientation,Average (dBm)
-APPLE,iPhone X,iPhone X,2,Front,-53.84
-SAMSUNG,Galaxy Note 9,SM-N960F,2,Front,-59.64
-SAMSUNG,Galaxy S8,SM-G950F,2,Front,-69.13
-SAMSUNG,Galaxy S10+,SM-G975F,2,Front,-57.87
-SAMSUNG,Galaxy Note 10+,SM-N975F,2,Front,-49.9
-APPLE,iPhone 6,iPhone 6,2,Front,-59.06
-HUAWEI,Mate 20 Pro,LYA-L29,2,Front,-70.56
-SAMSUNG,Galaxy A70,SM-A705MN,2,Front,-61.78
-SONY,Xperia XZ1,G8342,2,Front,-59.54
-XIAOMI,Mi A1,Mi A1,2,Front,-63.52
-GOOGLE,Pixel 3a XL,Pixel 3a XL,2,Front,-58.41
-XIAOMI,Pocophone F1,Pocophone F1,2,Front,-55.72
-XIAOMI,Mi A2 Lite,Mi A2 Lite,2,Front,-59.45
-LG,Nexus 5X,Nexus 5X,2,Front,-67.4
-SAMSUNG,Galaxy A10S,SM-A107F,2,Front,-66.57
-OPPO,AX5s,CPH1909,2,Front,-57.51
-OPPO,Realme 5,RMX1911,2,Front,-66.74
-XIAOMI,Mi Max 3,Mi Max 3,2,Front,-55.33
-HUAWEI,Nova 5t,YAL-L21,2,Front,-56.79
-VIVO,Y19,vivo 1915,2,Front,-59.9
+APPLE,iPhone X,iPhone X,2,Top,-53.84
+SAMSUNG,Galaxy Note 9,SM-N960F,2,Top,-59.64
+SAMSUNG,Galaxy S8,SM-G950F,2,Top,-69.13
+SAMSUNG,Galaxy S10+,SM-G975F,2,Top,-57.87
+SAMSUNG,Galaxy Note 10+,SM-N975F,2,Top,-49.9
+APPLE,iPhone 6,iPhone 6,2,Top,-59.06
+HUAWEI,Mate 20 Pro,LYA-L29,2,Top,-70.56
+SAMSUNG,Galaxy A70,SM-A705MN,2,Top,-61.78
+SONY,Xperia XZ1,G8342,2,Top,-59.54
+XIAOMI,Mi A1,Mi A1,2,Top,-63.52
+GOOGLE,Pixel 3a XL,Pixel 3a XL,2,Top,-58.41
+XIAOMI,Pocophone F1,Pocophone F1,2,Top,-55.72
+XIAOMI,Mi A2 Lite,Mi A2 Lite,2,Top,-59.45
+LG,Nexus 5X,Nexus 5X,2,Top,-67.4
+SAMSUNG,Galaxy A10S,SM-A107F,2,Top,-66.57
+OPPO,AX5s,CPH1909,2,Top,-57.51
+OPPO,Realme 5,RMX1911,2,Top,-66.74
+XIAOMI,Mi Max 3,Mi Max 3,2,Top,-55.33
+HUAWEI,Nova 5t,YAL-L21,2,Top,-56.79
+VIVO,Y19,vivo 1915,2,Top,-59.9

@@ -401,84 +401,84 @@ On the spectrum analyser, we used the peak-hold function and recorded the values
 	  <td>APPLE</td>
 	  <td>iPhone X</td>
 	  <td>iPhone X</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-53.84</td>
 	</tr>
 	<tr>
 	  <td>SAMSUNG</td>
 	  <td>Galaxy Note 9</td>
 	  <td>SM-N960F</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-59.64</td>
 	</tr>
 	<tr>
 	  <td>SAMSUNG</td>
 	  <td>Galaxy S8</td>
 	  <td>SM-G950F</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-69.13</td>
 	</tr>
 	<tr>
 	  <td>SAMSUNG</td>
 	  <td>Galaxy S10+</td>
 	  <td>SM-G975F</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-57.87</td>
 	</tr>
 	<tr>
 	  <td>SAMSUNG</td>
 	  <td>Galaxy Note 10+</td>
 	  <td>SM-N975F</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-49.90</td>
 	</tr>
 	<tr>
 	  <td>APPLE</td>
 	  <td>iPhone 6</td>
 	  <td>iPhone 6</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-59.06</td>
 	</tr>
 	<tr>
 	  <td>HUAWEI</td>
 	  <td>Mate 20 Pro</td>
 	  <td>LYA-L29</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-70.56</td>
 	</tr>
 	<tr>
 	  <td>SAMSUNG</td>
 	  <td>Galaxy A70</td>
 	  <td>SM-A705MN</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-61.78</td>
 	</tr>
 	<tr>
 	  <td>SONY</td>
 	  <td>Xperia XZ1</td>
 	  <td>G8342</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-59.54</td>
 	</tr>
 	<tr>
 	  <td>XIAOMI</td>
 	  <td>Mi A1</td>
 	  <td>Mi A1</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-63.52</td>
 	</tr>
 	<tr>
 	  <td>GOOGLE</td>
 	  <td>Pixel 3a XL</td>
 	  <td>Pixel 3a XL</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-58.41</td>
 	</tr>
 	<tr>
 	  <td>XIAOMI</td>
 	  <td>Pocophone F1</td>
 	  <td>Pocophone F1</td>
-	  <td>Front</td>
+	  <td>Top</td>
 	  <td>-55.72</td>
 	</tr>
   </tbody>
@@ -489,6 +489,7 @@ On the spectrum analyser, we used the peak-hold function and recorded the values
 
 ## Acknowledgements
 We are indebted to the:-
+* Republic of Singapore Air Force (RSAF)
 * Institute for Infocomm Research (I2), a research entity of the Agency for Science, Technology and Research (A\*STAR)
 * Rohde & Schwarz Singapore
 * Infocomm Media Development Authority (IMDA)
