@@ -3,10 +3,9 @@
 > The methodologies described in this document were designed for the TraceTogether application, but we hope the information can be of use to test and trial your own implementation of OpenTrace.
 
 ## Table of contents
-=================
 <!--ts-->
    * [Introduction](#introduction)
-   * [Phone manufacturer and model differences](##phone-manufacturer-and-model-differences)
+   * [Phone manufacturer and model differences](#phone-manufacturer-and-model-differences)
    * [The Ground Truth](#the-ground-truth)
    * [Small-scale Trial Methodology](#small-scale-trial-methodology)
    * [Indoor Office Trial Methodology](#indoor-office-trial-methodology)
